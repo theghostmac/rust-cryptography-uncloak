@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 sha256 = "1.1.1"
+hex = "0.4.3"
+tiny-keccak = { version = "2.0.0", features = ["keccak"] }
 
 
 [workspace]
